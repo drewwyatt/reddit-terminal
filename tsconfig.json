@@ -3,9 +3,7 @@
         "target": "es6",
         "module": "commonjs",
         "sourceMap": true,
-		"outFile": "./app.js"
-    },
-	"files": [
-		"./src/index.ts"
-	]
+		"outDir": "dist",
+		"rootDir": "src"
+    }
 }
